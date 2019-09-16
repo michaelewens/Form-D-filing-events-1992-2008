@@ -1,6 +1,6 @@
 # Form D filings events 1992 - 2008
-The [data on Form D filings](https://github.com/michaelewens/formD_filings_1992_2008/blob/master/rawFormD_clean.csv) was made available from a FOIA request with the Securities and Exchange Commission (SEC) in 2018.  The data is used in the paper "[The Deregulation of the Private Equity Markets and the Decline in IPOs](https://papers.ssrn.com/abstract=3017610)" by Ewens and Farre-Mensa (2019).   The data was originally part of an analysis (Figure 2, page 10) done by the SEC ["Capital Raising in the U.S.: An Analysis of the Market for
-Unregistered Securities Offerings, 2009-2014"](https://www.sec.gov/files/unregistered-offering10-2015.pdf)(pdf).
+The [data on Form D filings](https://github.com/michaelewens/formD_filings_1992_2008/blob/master/rawFormD_clean.csv) was made available from a FOIA request with the Securities and Exchange Commission (SEC) in 2018.  The data is used in the paper "[The Deregulation of the Private Equity Markets and the Decline in IPOs](https://papers.ssrn.com/abstract=3017610)" by Ewens and Farre-Mensa (2019) tp study the impact of regulatory changes to Regulation D.   The data was originally part of an analysis (Figure 2, page 10) done by the SEC ["Capital Raising in the U.S.: An Analysis of the Market for
+Unregistered Securities Offerings, 2009-2014"](https://www.sec.gov/files/unregistered-offering10-2015.pdf)(pdf).  Vladimir Ivanov was instrumental in helping us acquire the data. 
 
 The data has the following structure:
 
