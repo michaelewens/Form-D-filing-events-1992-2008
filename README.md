@@ -1,5 +1,5 @@
 # Form D filings events 1992 - 2008
-The [data on Form D filings](https://github.com/michaelewens/formD_filings_1992_2008/blob/master/rawFormD_clean.csv) was made available from a FOIA request with the Securities and Exchange Commission (SEC) in 2018.  The data is used in the paper "[The Deregulation of the Private Equity Markets and the Decline in IPOs](https://papers.ssrn.com/abstract=3017610)" by Ewens and Farre-Mensa (2019) to study the impact of regulatory changes to Regulation D and was originally part of an analysis (Figure 2, page 10) done by the SEC ["Capital Raising in the U.S.: An Analysis of the Market for
+The [data on Form D filings](https://github.com/michaelewens/formD_filings_1992_2008/blob/master/rawFormD_clean.csv) was made available from a FOIA request with the Securities and Exchange Commission (SEC) in 2018.  The data is used in the paper "[The Deregulation of the Private Equity Markets and the Decline in IPOs](https://academic.oup.com/rfs/article/33/12/5463/5835291)" by Ewens and Farre-Mensa (2020) to study the impact of regulatory changes to Regulation D and was originally part of an analysis (Figure 2, page 10) done by the SEC ["Capital Raising in the U.S.: An Analysis of the Market for
 Unregistered Securities Offerings, 2009-2014"](https://www.sec.gov/files/unregistered-offering10-2015.pdf)(pdf).  Vladimir Ivanov was instrumental in helping us acquire the data. 
 
 The data has the following structure:
@@ -20,18 +20,22 @@ Users of the data should be aware that many of the filers are funds or investmen
 If you use this data, please cite:
 
  ```Latex
- @article{ewensFarreMensa2019,
-  title={The Deregulation of the Private Equity Markets and the Decline in IPOs},
+@article{ewens2020deregulation,
+  title={The deregulation of the private equity markets and the decline in IPOs},
   author={Ewens, Michael and Farre-Mensa, Joan},
-  journal={Working Paper}
-  year={2019}
-  }
+  journal={The Review of Financial Studies},
+  volume={33},
+  number={12},
+  pages={5463--5509},
+  year={2020},
+  publisher={Oxford University Press}
+}
  ```
   
-Ewens, Michael and Joan Farre-Mensa. "[The Deregulation of the Private Equity Markets and the Decline in IPOs](https://papers.ssrn.com/abstract=3017610)." Working paper, 2018.
+Ewens, Michael, and Joan Farre-Mensa. "[The deregulation of the private equity markets and the decline in IPOs](https://academic.oup.com/rfs/article/33/12/5463/5835291?login=true&casa_token=Dcqgi_N7QI8AAAAA:ZWcgop_X7TsC4JVLUwv8vPQynQrWkrVYYY-M1I1PruFgwJoq3GMGH-m9cwOmPPupZfwK1vLDynM)." The Review of Financial Studies 33, no. 12 (2020): 5463-5509.
 
-## Example analysis from Ewens and Farre-Mensa (2019)
+## Example analysis from Ewens and Farre-Mensa (2020)
 
 The following figure reports the number of non-fund filings by exemption 506 vs other exemption types around the passage of NSMIA:
 
-![Ewens and Farre-Mensa (2019, Figure 1)](https://github.com/michaelewens/formD_filings_1992_2008/blob/master/formDfilings_nsmia.png)
+![Ewens and Farre-Mensa (2020, Figure 1)](https://github.com/michaelewens/formD_filings_1992_2008/blob/master/formDfilings_nsmia.png)
